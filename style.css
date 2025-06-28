@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "FF Mark W05", Arial, sans-serif;
+}
+.box {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 0;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.44);
+}
+nav {
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 68px;
+  z-index: 1;
+  position: absolute;
+  width: 95%;
+  padding-left: 37px;
+  padding-top: 6px;
+}
+.nav-detail> .nav_button {
+  font-family: "FF Mark W05", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  color: rgb(249, 249, 249);
+  cursor: pointer;
+  letter-spacing: 0.1em;
+  background-color: rgba(249, 249, 249, 0.01);
+  border: none;
+  position: relative;
+
+
+}
+
+
+svg {
+  cursor: pointer;
+}
+nav .left-section {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.nav-detail {
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+  align-items: center;
+}
+.right-section{
+    align-items: center;
+}
+.search-bar {
+  background-color: rgba(249, 249, 249, 0.01);
+  border: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 1.6rem;
+  padding: 10px;
+  padding-left: 19px;
+  width: 155px;
+  color: white;
+  font-weight: bolder;
+  font-size: 12px;
+  font-family: "FF Mark W05", Arial, sans-serif;
+  margin-left: 18px;
+  margin-right: -31px;
+}
+.search-bar::placeholder{
+    color: white;
+}
+.sign-in-button {
+  border-radius: 1.6rem;
+  padding: 12px 24px;
+  border: none;
+  background-color: rgb(209, 54, 57);
+  font-size: 12px;
+  color: black;
+  font-family: "FF Mark W05", Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  margin-right: 22px;
+  margin-left: 0;
+}
+.search-button {
+  height: 30px;
+  width: 21px;
+  background-color: rgba(249, 249, 249, 0.01);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  margin-left: 0px;
+  margin-right: 10px;
+  fill: white;
+  position: relative;
+  border: none;
+  right: 18px;
+  top: 8px;
+}
+
+.main_logo{
+    padding-top: 7px;
+}
+
+.inner_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_button{
+    background-color: transparent;
+}
+
+.nav_button{
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+.nav-detail{
+  color: #FFFFFF; 
+  border: none;   
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+   padding: 8px;
+   
+    
+}
+
+.main_logo>svg:hover{
+  fill: red;
+}
+
+.nav-detail:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+
+.small_logo{
+    width: 55px;
+    padding-top: 4px;
+    padding-left: 2px;
+}
+
+.nav_button_text{
+    padding-inline: 4px;
+}
+
+.red_underline1{
+    height: 4px;
+    width: 130px;
+    position: absolute;
+    top: 33px;
+    left: -10px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.nav-detail:hover .red_underline1 {
+    background-color: red;
+}
+
+.red_underline2{
+    height: 4px;
+    width: 141px;
+    position: absolute;
+    top: 33px;
+    left: -8px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.nav-detail:hover .red_underline2 {
+    background-color: red;
+}
+
+.red_underline3 {
+    height: 4px;
+    width: 74px;
+    position: absolute;
+    top: 33px;
+    left: -10px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.nav-detail:hover .red_underline3 {
+    background-color: red;
+}
